@@ -1,94 +1,61 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<feed xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning"
- xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
- xsi:noNamespaceSchemaLocation=
- "http://www.google.com/shopping/reviews/schema/product/2.4/product_reviews.xsd">
-    <version>2.4</version>
-    <aggregator>
-        <name>Sample Reviews Aggregator (if applicable)</name>
-    </aggregator>
-    <publisher>
-        <name>Sample Retailer</name>
-        <favicon>http://www.example.com/favicon.png</favicon>
-    </publisher>
-    <reviews>
-        <review>
-            <!-- full sample - includes all optional elements/attributes -->
-            <review_id>14295</review_id>
-            <reviewer>
-                <name is_anonymous="true">Anonymous</name>
-                <reviewer_id>509769</reviewer_id>
-            </reviewer>
-            <is_verified_purchase>true</is_verified_purchase>
-            <is_incentivized_review>false</is_incentivized_review>
-            <review_timestamp>2014-04-21T07:07:07Z</review_timestamp>
-            <title>Excellent</title>
-            <content>Got it for a friend and he loved it.</content>
-            <review_language>en</review_language>
-            <review_country>US</review_country>
-            <pros>
-                <pro>Sleek design</pro>
-                <pro>Protects the tablet well</pro>
-            </pros>
-            <cons>
-                <con>Pricey</con>
-            </cons>
-            <review_url type="singleton">http://www.example.com/review_14295.html</review_url>
-            <reviewer_images>
-                <reviewer_image>
-                    <url>https://example.com/test.jpg</url>
-                </reviewer_image>
-                <reviewer_image>
-                    <url>https://example.com/test.gif</url>
-                </reviewer_image>
-            </reviewer_images>
-            <ratings>
-                <overall min="1" max="5">4.4</overall>
-            </ratings>
-            <products>
-                <product>
-                    <product_ids>
-                        <gtins>
-                            <gtin>541710238425</gtin>
-                        </gtins>
-                        <mpns>
-                            <mpn>60101-10000</mpn>
-                        </mpns>
-                        <skus>
-                            <sku>6206</sku>
-                        </skus>
-                        <brands>
-                            <brand>Acme</brand>
-                        </brands>
-                        <asins>
-                            <asin>B07YMJ57MB</asin>
-                        </asins>
-                    </product_ids>
-                    <product_name>Tablet Sleeve</product_name>
-                    <product_url>http://www.example.com/product_6206.html</product_url>
-                </product>
-            </products>
-            <is_spam>false</is_spam>
-            <collection_method>post_fulfillment</collection_method>
-            <transaction_id>fulfillment_transaction_11198373</transaction_id>
-        </review>
-        <review>
-            <!-- minimal sample - no optional elements/attributes -->
-            <review_id>14296</review_id>
-            <reviewer>
-                <name>Jane</name>
-            </reviewer>
-            <review_timestamp>2014-04-21T07:14:21Z</review_timestamp>
-            <content>I was a little skeptical at first, but it grew on me.</content>
-            <review_url type="singleton">http://www.example.com/review_59684.html</review_url>
-            <ratings>
-                <overall min="1" max="5">4.3</overall>
-            </ratings>
-            <products>
-                <product>
-                    <product_url>http://www.example.com/product_6207.html</product_url>
-                </product>
-            </products>
-        </review>
-    </reviews>
-</feed>
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0">
+	<channel>
+		<title>Sivilingeniør Njål Hansson AS</title>
+		<link>https://njal.no</link>
+		<description>Google Merchant Center product feed</description>
+		<item>
+			<title>Supra audiokabel USB A-B 12m USB 2.0 A-B</title>
+			<link>https://njal.no/supra-cables/36924/supra-audiokabel-usb-a-b-12m-usb-20-a-b</link>
+			<description />
+			<g:id>36924</g:id>
+			<g:condition>new</g:condition>
+			<g:price>1090 NOK</g:price>
+			<g:cost_of_goods_sold>800 NOK</g:cost_of_goods_sold>
+			<g:availability>Out of stock</g:availability>
+			<g:image_link>https://njal.no/Media/Cache/Images/2/1/WEB_Image%20-1092521828.Jpeg</g:image_link>
+			<g:gtin>7330060203916</g:gtin>
+			<g:brand>Supra Cables</g:brand>
+			<g:unit_pricing_base_measure>1 kg</g:unit_pricing_base_measure>
+			<g:product_type>Kabel &gt; USB &gt; Supra</g:product_type>
+			<g:shipping>
+				<g:price>0 NOK</g:price>
+				<g:country />
+			</g:shipping>
+		</item>
+		<item>
+			<title>Schwaiger aktiv antenne, DTA 3000 Bordantenne for inne og utendørs bruk.</title>
+			<link>https://njal.no/schwaiger-gmbh/50141/schwaiger-aktiv-antenne-dta-3000-bordantenne-for-inne-og-utend%c3%b8rs-bruk</link>
+			<description />
+			<g:id>50141</g:id>
+			<g:condition>new</g:condition>
+			<g:price>598.50 NOK</g:price>
+			<g:availability>Out of stock</g:availability>
+			<g:image_link>https://njal.no/Media/Cache/Images/6/6/WEB_Image%201095667301.Jpeg</g:image_link>
+			<g:gtin>4004005300666                 </g:gtin>
+			<g:brand>Schwaiger GmbH</g:brand>
+			<g:product_type>Antenner &gt; Bord antenner &gt; Schwaiger</g:product_type>
+			<g:shipping>
+				<g:price>0 NOK</g:price>
+				<g:country />
+			</g:shipping>
+		</item>
+		<item>
+			<title>Canton høyttaler InWall 949 Innfellbare vegghøyttalere (Pris pr par)</title>
+			<link>https://njal.no/canton/170080/canton-h%c3%b8yttaler-inwall-949-innfellbare-veggh%c3%b8yttalere-pris-pr-par</link>
+			<description />
+			<g:id>170080</g:id>
+			<g:condition>new</g:condition>
+			<g:price>5240,70 NOK</g:price>
+			<g:availability>in stock</g:availability>
+			<g:image_link>https://njal.no/Media/Cache/Images/2/3/WEB_Image%20455898483.Jpeg</g:image_link>
+			<g:gtin>4010243037608</g:gtin>
+			<g:brand>Canton</g:brand>
+			<g:product_type>Høyttalere &gt; Installasjon &gt; Canton</g:product_type>
+			<g:shipping>
+				<g:price>0 NOK</g:price>
+				<g:country />
+			</g:shipping>
+		</item>
+	</channel>
+</rss>
